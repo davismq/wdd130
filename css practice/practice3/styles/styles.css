@@ -1,0 +1,45 @@
+* {
+    border: 2px solid red;
+}
+body {
+    text-align: center;
+    background-color: rgb(247, 159, 174);
+    }
+    a:hover {
+        color: black;
+    }
+    a {
+        color: white;
+        font-size: 3em;
+    }
+    p {
+        color: white;
+        margin: 10px 25em;
+    }
+    main p {
+        font-size: 1em;
+    }
+    footer p {
+        color: black;
+        margin: 5px 460px;
+    }
+    .main-quote {
+        font-size: 2.5em;
+        display: block;
+        width: 350px;
+        margin: 15px auto;
+    }
+    img {
+        width: 200px;
+        display: block;
+        margin: 5px auto;
+    }
+    h1 {
+        color: white;
+        font-size: 1.4em;
+        margin: 10px 375px;
+    }
+    h2 {
+        margin: 5px 325px;
+        text-align: left;
+    }
