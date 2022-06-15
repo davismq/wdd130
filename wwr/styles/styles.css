@@ -185,6 +185,67 @@ main section img {
     box-shadow: 5px 5px 10px #457b9d;
 }
 
+/* START OF SUB-PAGE -FAQ- */
+
+#faq-hero-msg h1 {
+    text-align: center;
+}
+#faq-hero-img {
+    width: 100%;
+}
+#faq-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#faq-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#faq-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 150px;
+    font-size: 28px;
+    background-color: #e5f6df;
+    text-decoration: solid;
+    padding: 2px 5px;
+    border-radius: 30px;
+    opacity: 80%;
+}
+.faq-numbered {
+    margin: 50px 50px;
+}
+.faq-one, .faq-two, .faq-three, .faq-four, .faq-five, .faq-six {
+    text-align: center;
+}
+.faq-one h2, .faq-two h2, .faq-three h2, .faq-four h2, .faq-five h2, .faq-six h2 {
+    font-size: 35px;
+    background-color: #b6ceb6;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+#faq-background {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.overhead {
+    width: 100%;
+    grid-column: 1/6;
+    grid-row: 1/4;
+    border-radius: 10px;
+}
+.questions {
+    background-color: #b6ceb6;
+    border-radius: 5px;
+    line-height: 45px;
+    padding: 30px;
+    grid-column: 3/5;
+    grid-row: 2/3;
+    z-index: 1;
+}
+
 /* Don't add any CSS after the media query below */
 
 @media screen and (max-width: 900px) {
