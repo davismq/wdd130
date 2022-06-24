@@ -247,6 +247,7 @@ main section img {
 }
 
 /* Below is for the contactus.html page */
+
 form {
     /* Center the form on the page */
     margin: 0 auto;
@@ -257,25 +258,25 @@ form {
     border-radius: 1em;
   }
   
-  ul {
+ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
   
-  form li + li {
+form li + li {
     margin-top: 1em;
   }
   
-  label {
+label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
     text-align: right;
   }
   
-  input,
-  textarea {
+input,
+textarea {
     /* To make sure that all text fields have the same font settings
        By default, textareas have a monospace font */
     font: 1em sans-serif;
@@ -288,13 +289,13 @@ form {
     border: 1px solid #999;
   }
   
-  input:focus,
-  textarea:focus {
+input:focus,
+textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #000;
   }
   
-  textarea {
+textarea {
     /* Align multiline text fields with their labels */
     vertical-align: top;
   
@@ -302,12 +303,12 @@ form {
     height: 5em;
   }
   
-  .button {
+.button {
     /* Align buttons with the text fields */
     padding-left: 90px; /* same size as the label elements */
   }
   
-  button {
+button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: .5em;
