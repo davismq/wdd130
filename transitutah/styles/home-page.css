@@ -140,3 +140,16 @@ main section img {
     grid-column: 1/11;
     grid-row: 4/9;
 }
+#myDIV {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #396e94;
+    margin-top: -42px;
+  }
+  main button {
+    color: white;
+    margin-left: 41%;
+    background-color: #141414;
+    padding: 10px;
+  }

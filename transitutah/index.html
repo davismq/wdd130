@@ -35,7 +35,22 @@
         <p>The current state of the commute for the average Utah or Salt Lake Valley commuter is not great. Occasionally, you will have a nice drive home on the freeway and there won't be any traffic at all, but once you wake up from that dream you will find that it is rarely, if ever, even close to that. Every single day, there is congestion, slow-downs, and traffic on your commute to and from work. If you happen to think, “Oh, hm, maybe I should take the Frontrunner commuter train to work instead of driving to avoid the traffic,” there is a good chance that you will be stuck waiting at the station because of a delay and you might not even get a seat on the train when it arrives because of overcrowding. I find that this is all unacceptable, seeing as that there were many years of construction all along the Wasatch front with the goal of widening the freeway, creating new lanes and exits, and decongesting the roads.</p>
         <p>The Frontrunner commuter train was created not too many years ago to take people off the road and provide a safer, calmer, relaxing, and more environmentally friendly way to commute to work. In my opinion, both projects did nothing more than postpone the traffic and commuting problem. I believe that although both commuting styles have their respective pros and cons, the future of the commute along the Wasatch front is by rail and by other forms of public transit.</p>
     </div>
-    <!-- <img id="rail-map" src="images/railsystemmap.png" alt="map of the utah rail system"> -->
+
+    <!-- Below here is the button -->
+    <button onclick="myFunction()">Click here to see a map of the current rail lines!</button>
+    <div id="myDIV">
+        <img id="rail-map" src="images/railsystemmap.png" alt="map of the utah rail system">
+    </div>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    </script>
 </main>
 <!-- Below this is the footer, keep this the same on each page -->
     <footer>
