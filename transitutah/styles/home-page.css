@@ -47,7 +47,14 @@ nav a:hover {
     opacity: 80%;
 }
 .paragraph-one {
-    background-color: #e5f6df;
+    background-color: #e8eddf;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+.paragraph-one-proposed {
+    background-color: #e8eddf;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -62,6 +69,13 @@ footer {
     align-items: center;
 }
 .home-title {
+    color: black;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 2.75em;
+    margin-top: 50px;
+    text-align: center;
+}
+.proposed-title {
     color: black;
     font-family: 'Cinzel', sans-serif;
     font-size: 2.75em;
@@ -94,6 +108,9 @@ footer a:hover {
     width: 80px;
 }
 #hero-img {
+    width: 100%;
+}
+#hero-img-page-two {
     width: 100%;
 }
 footer h3 a:hover {
